@@ -7,10 +7,10 @@ const AadaMedium = () => {
                 <div className="flex flex-row items-center justify-between">
                     <h2 className="text-[28px] lg:text-[60px] font-black text-white pt-[41px] pb-[20px] lg:pt-[120px] lg:pb-[63px]">Aada Medium</h2>
                     <div className="hidden lg:block">
-                    <button type="button" className="flex flex-row items-center gap-4">
+                    <button type="button" className="flex flex-row items-center gap-4 relative z-10">
                             <p className="text-[16px] font-bold uppercase text-[#B5FED9]">View all View all insights</p>
                             <img className='w-[25px] h-[12px]' src="/images/latest-5.png" alt=""/>
-                        </button>
+                    </button>
                     </div>
                 </div>
                 <div className="lg:flex lg:flex-row gap-7">

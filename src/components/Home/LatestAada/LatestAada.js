@@ -9,13 +9,13 @@ const LatestAada = () => {
                     <img className="lg:w-[815px] lg:h-[472px]" src="/images/latest-1.png" alt=""/>
                 </div>
                 <div>
-                    <div className="hidden lg:block pt-[80px]">
-                        <div className="flex flex-row items-center justify-end gap-6">
+                    <div className="hidden lg:block pt-[80px] relative z-10">
+                        <a href="/#" className="flex flex-row items-center justify-end gap-6">
                             <p className="text-[16px] font-bold uppercase text-[#B5FED9]">View all videos</p>
                             <img className="w-[25px] h-[12px]" src="/images/latest-5.png" alt=""/>
-                        </div>
+                        </a>
                     </div>
-                    <div className="min-w-[135px] flex flex-row items-center gap-[20px] mt-[20px]">
+                    <div className="min-w-[135px] flex flex-row items-center gap-[20px] mt-[20px] cursor-pointer relative z-10">
                         <img className="" src="/images/latest-3.png" alt=""/>
                         <div>
                             <p className=" font-bold text-[18px] leading-[21px] lg:text-[30px] lg:leading-[45px]
@@ -25,13 +25,13 @@ const LatestAada = () => {
                             <img className="hidden lg:block" src="/images/latest-4.png" alt="" />
                         </div>
                     </div>
-                    <div className="min-w-[135px] flex flex-row items-center my-[15px] lg:my-[26px] gap-[20px]">
+                    <div className="min-w-[135px] flex flex-row items-center my-[15px] lg:my-[26px] gap-[20px] cursor-pointer relative z-10">
                         <img src="/images/latest-3.png" alt=""/>
                             <p className=" font-bold text-[18px] leading-[21px] text-white lg:text-[30px] lg:leading-[45px]">
                               Lending and Borrowing on Cardano: Intro
                             </p> 
                     </div>
-                    <div className="min-w-[135px] flex flex-row items-center mb-[20px] gap-[20px]">
+                    <div className="min-w-[135px] flex flex-row items-center mb-[20px] gap-[20px] cursor-pointer relative z-10">
                         <img src="/images/latest-3.png" alt=""/>
                             <p className=" font-bold text-[18px] leading-[21px] text-white lg:text-[30px] lg:leading-[45px]">
                               Lending and Borrowing on Cardano: Intro
